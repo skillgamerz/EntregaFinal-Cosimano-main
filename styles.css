@@ -10,6 +10,7 @@ body {
   z-index: 3;
   top: 0;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,17 +27,18 @@ body {
 }
 
 .ver-carrito {
-  font-size: 25px;
+  font-size: 50px;
   margin-right: 20px;
-  margin-top: 3.5vh;
+  margin-top: 4pxvh;
   cursor: pointer;
+  
 }
 
 /*Banner styles*/
 .banner {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("https://thumbs.dreamstime.com/b/smiling-handsome-asian-man-holding-grocery-shopping-bag-supermarket-banner-background-copy-spce-food-delivery-service-178142741.jpg");
 }
@@ -66,7 +68,8 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin: 20px;
+  margin-top: 20px;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -94,7 +97,7 @@ body {
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #1a1fb9;
+  background-color: #0d6efd ;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -110,8 +113,8 @@ body {
   width: 80%;
   margin: 0 10%;
   max-height: 88vh;
-  color: #fff;
-  background-color: #121212;
+  color: #0e0e0e;
+  background-color: #f8f8f8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,9 +132,10 @@ body {
 .modal-header {
   display: flex;
   justify-content: space-around;
-  background-color: #0a0909;
+  background-color: #0d6efd;
   color: #fff;
   width: 100%;
+  margin-top: 2px;
 }
 
 .modal-header-title {
@@ -194,9 +198,9 @@ body {
   background-color: red;
   color: white;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 20px;
   padding: 4px;
-  top: 37px;
+  top: 50px;
   right: 14px;
   position: absolute;
   display: none;
@@ -218,3 +222,7 @@ body {
   bottom: 0;
   width: 100%
 }
+.textoizqsup {
+  font-size: 50px;
+}
+

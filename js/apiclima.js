@@ -3,7 +3,7 @@ const temperature = document.getElementById ("temperature")
 function getFetch(){
   const choice = document.querySelector(".clima").value
   console.log(choice)
-  const url = `  https://goweather.herokuapp.com/weather/${choice}`
+  const url = `https://goweather.herokuapp.com/weather/${choice}`
 
 
   fetch(url)
